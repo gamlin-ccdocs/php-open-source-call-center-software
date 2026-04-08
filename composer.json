@@ -1,0 +1,33 @@
+{
+    "name": "vicistack/open-source-call-center-software",
+    "description": "Open Source Call Center Software: The Complete Guide",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "open",
+        "source",
+        "call",
+        "center",
+        "software"
+    ],
+    "homepage": "https://vicistack.com/blog/open-source-call-center-software/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\OpenSourceCallCenterSoftware\\": "src/"
+        }
+    }
+}
